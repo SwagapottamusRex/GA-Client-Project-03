@@ -72,7 +72,7 @@ Our team of three quickly settled on the idea of building a podcast website wher
 
 ## Day 2 - 3
 
-Our team decided to finish the backend completly first before starting the frontend. The backend side of the project consisted of building CRUD operators for our Mongo database. I was in charge of organised and dividing up the tasks which included creating the podcasts and comments controllers with all the necessary functionalities. A lot of the code was 'boiler plate' code which made it easy to replicate but nonetheless our team had to navigate platforms and tools we had never used before. Some code that I was proud of was because of how complex it was for me at the time to undertand was the SecureRoute.js file.
+Our team decided to finish the backend completely first before starting the frontend. The backend side of the project consisted of building CRUD operators for our Mongo database. I was in charge of organising and dividing up the tasks which included creating the podcasts and comments controllers with all the necessary functionalities. A lot of the code was 'boiler plate' code which made it easy to replicate but nonetheless our team had to navigate platforms and tools we had never used before. Some code that I was proud of was because of how complex it was for me at the time to understand, was the SecureRoute.js file.
 
     import jwt from 'jsonwebtoken';
     import User from '../models/user.js';
@@ -111,7 +111,7 @@ Our team decided to finish the backend completly first before starting the front
 
 ## Day 4 - 9
 
-We started working on the front end fairly swiftly without having had too many git merge conflicts in the previous days. I was in charge of dividing up the tasks fairly and to each members' strengths. I created the MyPodcasts.js, Navbar.js, NewPodcast.js, SearchByName.js and the EditPodcast.js. During this time we tried to git merge as often as possible to make sure we had as few bugs and conflicts with our app (since the page would completely shut down for one slightly off element). In the final couple of days we had to play catch up with Bulma and styling since we weren't all quite comfortable with Bulma. Communication was a key part of this project as well as offering support to our teammates. Once finished with our project I deployed it using Netlify. One piece of code that I was particularily pleased about was the authentication file where I learnt and developed my understanding of Axios. 
+We started working on the front end fairly swiftly without having had too many git merge conflicts in the previous days. I was in charge of dividing up the tasks fairly and to each members' strengths. I created the MyPodcasts.js, Navbar.js, NewPodcast.js, SearchByName.js and the EditPodcast.js. During this time we tried to git merge as often as possible to make sure we had as few bugs and conflicts with our app (since the page would completely shut down for one slightly off element). In the final couple of days we had to play catch up with Bulma and styling since we weren't all quite comfortable with Bulma. Communication was a key part of this project as well as offering support to our teammates. Once finished with our project I deployed it using Netlify. One piece of code that I was particularly pleased about was the authentication file where I learnt and developed my understanding of Axios. 
 
     import axios from 'axios';
 
@@ -162,7 +162,7 @@ One blocker that I noticed was our lack of skills in styling with Bulma and tryi
 
 ## Bugs 
 
-Perhaps not necessarily a bug but more of a hinderance is the lack of pop up when entering your password or email wrong when logging in as well as for when registering. Another 'bug' but maybe not entirely problematic is that the page is slow to load when displaying all the podcasts.
+Perhaps not necessarily a bug but more of a hindrance is the lack of pop up when entering your password or email wrong when logging in as well as for when registering. Another 'bug' but maybe not entirely problematic is that the page is slow to load when displaying all the podcasts.
 
  ## Future Content and Improvements
 
