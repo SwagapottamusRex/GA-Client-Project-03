@@ -33,7 +33,7 @@ This project consisted of building a custom backend API and frontend website/app
 
 ### Back-end:
 <li>Node.js</li>
-<li>Mongodb</li>
+<li>MongoDB</li>
 <li>Express</li>
 <li>Bcrypt</li>
 <li>Body-parser</li>
@@ -53,8 +53,8 @@ This project consisted of building a custom backend API and frontend website/app
 ### Development tools:
 <li>VS code</li>
 <li>NPM</li>
-<li>Insomnia</li>
 <li>Git</li>
+<li>Postman</li>
 <li>Github</li>
 <li>Google Chrome dev tools</li>
 <li>Heroku (deployment)</li>
