@@ -17,7 +17,7 @@ https://podcastsapp.netlify.app/
 
 ## Project Overview
 
-This project consisted of building a custom backend API and frontend website/app using React. This was my first project using MERN (mongoDB, express, react, node). Our team of three had 9 days to build this app. 
+This project consisted of building a custom backend API and frontend website/app using React. This was my first project using MERN (MongoDB, Express, React, Node). Our team of three had 9 days to build this app. 
 
 
 ## The Brief
@@ -65,14 +65,14 @@ This project consisted of building a custom backend API and frontend website/app
 
 ### Day 1
 
-Our team of three quickly settled on the idea of building a podcast website where users could register, login, create and like their own podcasts. Using Trello board and excalidraw we were able to plan out our ideas and divide up the tasks. The Trello board was especially useful when trying to see our progress and what was still missing. Excalidraw was used to visualise our idea better.  
+Our team of three quickly settled on the idea of building a podcast website where users could register, login, create and like their own podcasts. Using Trello board and excalidraw we were able to plan out our ideas and divide up the tasks. The Trello board was especially useful when trying to see our progress and what was still missing. Excalidraw was used to visualise our idea better. We were also on a live call (Zoom) so we could easily communicate our progress and help each other out throughout the days to come.
 
 <img src="./screenshotEx.png" alt="excali" width="500"/>
 
 
 ## Day 2 - 3
 
-Our team decided to finish the backend completely first before starting the frontend. The backend side of the project consisted of building CRUD operators for our Mongo database. I was in charge of organising and dividing up the tasks which included creating the podcasts and comments controllers with all the necessary functionalities. A lot of the code was 'boiler plate' code which made it easy to replicate but nonetheless our team had to navigate platforms and tools we had never used before. Some code that I was proud of was because of how complex it was for me at the time to understand, was the SecureRoute.js file.
+Our team decided to finish the backend completely first before starting the frontend. The backend side of the project consisted of building CRUD operators for our Mongo database. I was in charge of organising and dividing up the tasks which included creating the podcasts and comments controllers with all the necessary functionalities. A lot of the code was 'boilerplate' code which made it easy to replicate but nonetheless our team had to navigate platforms and tools we had never used before. Some code that I was proud of was the SecureRoute.js file because of how complex it was for me to understand at the time.
 
     import jwt from 'jsonwebtoken';
     import User from '../models/user.js';
@@ -111,7 +111,7 @@ Our team decided to finish the backend completely first before starting the fron
 
 ## Day 4 - 9
 
-We started working on the front end fairly swiftly without having had too many git merge conflicts in the previous days. I was in charge of dividing up the tasks fairly and to each members' strengths. I created the MyPodcasts.js, Navbar.js, NewPodcast.js, SearchByName.js and the EditPodcast.js. During this time we tried to git merge as often as possible to make sure we had as few bugs and conflicts with our app (since the page would completely shut down for one slightly off element). In the final couple of days we had to play catch up with Bulma and styling since we weren't all quite comfortable with Bulma. Communication was a key part of this project as well as offering support to our teammates. Once finished with our project I deployed it using Netlify. One piece of code that I was particularly pleased about was the authentication file where I learnt and developed my understanding of Axios. 
+We started working on the front end fairly swiftly without having had too many git merge conflicts in the previous days. I was in charge of dividing up the tasks fairly and to each member's strengths. I created the MyPodcasts.js, Navbar.js, NewPodcast.js, SearchByName.js and the EditPodcast.js. During this time, we tried to git merge as often as possible to make sure we had as few bugs and conflicts with our app (since the page would completely shut down for one slightly off element). In the final couple of days, we had to play catch up with Bulma and styling since we weren't all quite comfortable with Bulma. Communication was a key part of this project as well as offering support to our teammates. Once finished with our project, I deployed it using Netlify. One piece of code that I was particularly pleased about was the authentication file where I learnt and developed my understanding of Axios. 
 
     import axios from 'axios';
 
@@ -166,7 +166,7 @@ Perhaps not necessarily a bug but more of a hindrance is the lack of pop up when
 
  ## Future Content and Improvements
 
-A major improvement can be implementing more notifications when registering with a weak password or with a username that already exists. I could also optimize our styling better as well to make the flow of the navigation smoother. 
+A major improvement can be implementing more notifications when registering with a weak password or with a username that already exists. I could also optimise our styling better as well to make the flow of the navigation smoother. 
 
  ## Key Learnings
 
